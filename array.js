@@ -12,4 +12,11 @@ const arr3 = [90,100,200];
 //const res = [...arr, ...arr2, ...arr3] // spread operator -> combines the multiple arrays to a single array
 
 //console.log(arr);
-console.log(res);
+
+// interpolation -> using backticks and dollar symbols
+const greet = "hey!";
+const names = ["raj", "mohan", "farhan"];
+const ages = [20,21,22];
+console.log(`${greet} the name is ${names[0]} and age is ${ages[0]}`);
+
+// console.log(res);
