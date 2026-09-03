@@ -18,6 +18,7 @@ const user = {
 // }
 
 //2nd way -> used in react
+// NOTE : when we dont use the curly braces then their is no need of using the return keyword otherwise with curly braces we have to use the return keyword in arrow functions
 //const res = (num1, num2) => (num1 + num2);
 
 // console.log();
