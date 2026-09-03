@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Key Detector</title>
+    <style>
+        :root {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            color: #111827;
+            background: #111827;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            background: #f3f4f6;
+        }
+
+        #insert {
+            width: min(100%, 560px);
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+
+        .key {
+            padding: 48px 24px;
+            border: 2px dashed #2563eb;
+            border-radius: 10px;
+            color: #111827;
+            font-size: clamp(1.25rem, 4vw, 2rem);
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-align: center;
+        }
+
+        @media (max-width: 420px) {
+            body {
+                padding: 16px;
+            }
+
+            .key {
+                padding: 36px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="insert">
+        <div class="key">Press the key and watch magic</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
