@@ -5,4 +5,4 @@
 - loops.js
 - this and arrow concept
 - map_filter_reduce.js
-- 
+- promises.js
